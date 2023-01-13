@@ -48,6 +48,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'håkontesterjavaappservice'
-          slot-name: 'Production'
+          slot-name: ''
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CCE337F5E8F84B4B860712EFDACBF6AC }}
           package: '*.jar'
